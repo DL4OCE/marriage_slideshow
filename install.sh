@@ -22,5 +22,4 @@ echo @xset -dpms
 echo @xset s noblank
 echo @feh --auto-rotate --hide-pointer --borderless --quiet --slideshow-delay 5 --image-bg black --fullscreen --auto-zoom --randomize --reload 5 --recursive /var/www/html/pics/
 
-
-# /// ToDo: SD card config
+echo Use the file SD_WLAN/CONFIG on your WiFi SD card!
