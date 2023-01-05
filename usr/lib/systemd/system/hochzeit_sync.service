@@ -1,0 +1,16 @@
+[Unit]
+Description=Sync von FlashAir Hochzeit Katja & Arne
+After=network-online.target
+Wants=network-online.target 
+
+[Service]
+Type=simple
+ExecStart=php /var/www/html/sync.php
+User=pi
+Group=pi
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
+
