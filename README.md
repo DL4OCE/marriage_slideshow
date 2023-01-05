@@ -2,6 +2,10 @@
 
 This slideshow made us have a really nice marriage in July 2022 :)
 
+Hardware used:
+- Raspberry Pi Zero 2 W
+- TOSHIBA FlashAir 8 GB WiFi SD card W-02
+
 It consists of three parts:
 
 - the WiFi SD card configuration starting a web server on the SD card
